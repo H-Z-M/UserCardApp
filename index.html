@@ -4,6 +4,25 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+    .imgFit {
+        object-fit: contain;
+    }
+
+    .expandLink {
+        position: relative;
+        z-index: 1; 
+    }
+    .expandLink a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-indent:-999px;
+        z-index: 2; 
+    }
+</style>
 </head>
 <body>
     <div id="target">
