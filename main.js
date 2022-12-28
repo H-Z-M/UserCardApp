@@ -13,6 +13,14 @@ class EmotionObject{
         this.color = color;
         this.onomatopoeia = onomatopoeia;
     }
+
+    getOnomatopoeiaWords(){
+
+    }
+
+    getHtmlContainerString(){
+
+    }
 }
 
 //グローバル定数
@@ -156,9 +164,10 @@ function emotionOnomatopoeiaDictionary() {
             dict.append(divOut);
         }
     	container.append(dict);
-	    emo.append(container);
+	emo.append(container);
+        detailDiv.append(emo);
     }
-	detailDiv.append(emo);
+
 	document.getElementById("target").append(detailDiv);
 }
 
